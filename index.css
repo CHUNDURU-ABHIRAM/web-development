@@ -25,3 +25,26 @@
     color:black;
     text-decoration:underline;
 }
+.card{
+    border:2px solid black;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.card button{
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 20px;
+}
+.card button:hover{
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}
