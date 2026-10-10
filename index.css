@@ -1,0 +1,27 @@
+/* .one{
+    color: blue;
+}
+.two{
+    color: red;
+} */
+ body{
+    margin: 0px;
+}
+.navbar{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+}
+.navbar a{
+    padding: 15px;
+    text-decoration: none;
+    color: brown;
+}
+.navbar a:hover{
+    background-color: yellow;
+    color:black;
+    text-decoration:underline;
+}
